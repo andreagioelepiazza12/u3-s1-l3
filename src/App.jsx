@@ -4,15 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css'
 import MyNav from './components/MyNav';
+import MyFoot from './components/MyFoot';
+import Welcome from './components/Welcome';
+import AllTheBooks from './components/AllTheBooks';
 
 function App() {
   return (
     <>
       <MyNav />
-      <div className="container mt-4">
-        
-        
-      </div>
+      <Welcome />
+      <AllTheBooks />
+      <MyFoot />
     </>
   );
 }
